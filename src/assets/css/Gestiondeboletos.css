@@ -1,0 +1,117 @@
+.gestion-boletos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000022;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.gestion-boletos-contenido {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.gestion-boletos-seat-selection-container {
+    flex: 1;
+    background-color: #001242;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.seat-selection-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.seat-selection-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.seat-controls {
+    display: flex;
+    justify-content: center; /* Centra los botones en relación con el texto "Número de Asientos" */
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: -300px; /* Ajusta la posición un poco hacia la izquierda */
+}
+.seat-controls button {
+    background-color: #005E7C;
+    color: white;
+    border: none;
+    padding: 10px 40px; /* Aumentamos el padding horizontal para hacerlos más largos */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem; /* Mantener el tamaño de la fuente actual */
+}
+
+.seat-controls button:hover {
+    background-color: #616174;
+}
+
+.seat-map {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    gap: 5px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.seat {
+    width: 15px;
+    height: 15px;
+    background-color: #404D71;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.seat.selected {
+    background-color: #c0392b;
+}
+
+.gestion-boletos-showlist {
+    flex: 1;
+    background-color: #001242;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.showlist-filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.filter-button {
+    background-color: #005E7C;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.action-buttons-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+}
+.search-bar {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #D6F5FF; /* Color de fondo */
+    color: #333; /* Color del texto */
+    font-size: 16px;
+}

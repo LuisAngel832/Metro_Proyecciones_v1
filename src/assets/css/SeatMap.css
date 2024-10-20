@@ -1,0 +1,50 @@
+.seat-map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px; /* Aumenta el margen superior para mover el contenedor de asientos hacia abajo */
+    gap: 10px;
+}
+
+.seat-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Separación entre las filas de asientos */
+}
+
+.seat-row-label {
+    width: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    background-color: #001242;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.seat:hover {
+    background-color: #0077a7;
+}
+
+.seat.selected {
+    background-color: #c0392b; /* Color para asiento seleccionado */
+}
+
+.pantalla {
+    width: 400px;
+    margin-bottom: 20px; /* Agrega espacio debajo de la pantalla */
+}
+
+/* Mantén las imágenes con estos estilos si están presentes */
+img {
+    color: white;
+}

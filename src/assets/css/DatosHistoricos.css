@@ -1,0 +1,60 @@
+.datos-historicos-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.datos-historicos-fechas {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: #001242;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.fecha-item {
+    text-align: center;
+    color: white;
+}
+
+.datos-historicos-datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #20305A;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 10px;
+    width: 90%;
+    color: white;
+}
+
+.datos-item {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.datos-item h2 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+.datos-historicos-menu-button {
+    position: absolute;
+    top: 30px; /* Ajusta el valor según la posición deseada */
+    right: 50px; /* Ajusta el valor según la posición deseada */
+    background-color: #262C3B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 75px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.datos-historicos-menu-button:hover {
+    background-color: #0077a7; /* Color al pasar el ratón */
+}

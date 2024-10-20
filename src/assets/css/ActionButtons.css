@@ -1,0 +1,28 @@
+.action-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-cancelar,
+.button-confirmar {
+    background-color: #3d4456;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-cancelar {
+    background-color: #420033; /* Rojo */
+}
+
+.button-confirmar {
+    background-color: #262C3B; /* Azul */
+}
+
+.button-cancelar:hover,
+.button-confirmar:hover {
+    opacity: 0.8; /* Efecto de transparencia al pasar el mouse */
+}

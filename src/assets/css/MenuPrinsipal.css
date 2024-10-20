@@ -1,0 +1,35 @@
+.menu-prinsipal-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #070E1F;
+    width: 100%;
+}
+
+.menu-prinsipal-logo {
+    position: relative;
+    width: 580px;
+    height: 544px;
+    top: -60px;
+    left: -40px;
+}
+
+.menu-prinsipal-group-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.menu-pricipal-button {
+    background-color: #262C3B;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}

@@ -1,0 +1,56 @@
+.cancel-ticket-container {
+    background-color: #002B4F;
+    border-radius: 15px;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ticket-code-input {
+    width: 80%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.back-button, .search-button, .cancel-button {
+    background-color: #420033;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover, .search-button:hover, .cancel-button:hover {
+    background-color: #0077a7;
+}
+
+.ticket-details-container {
+    background-color: #0A2F4F;
+    border-radius: 15px;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ticket-details-container h2,
+.ticket-details-container h3 {
+    color: white;
+}
+
+.ticket-details-container p {
+    color: #F2F2F2;
+    font-size: 1.5rem;
+}

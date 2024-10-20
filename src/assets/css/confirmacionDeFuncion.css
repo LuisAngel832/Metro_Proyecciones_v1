@@ -1,0 +1,64 @@
+.confirmacion-de-funcion{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+}
+
+.confirmacion-contenido{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#134767;;
+    padding: 50px;
+    border-radius: 10px;
+    height: 550px;
+    width: 800px;
+    }
+.confirmacion-contenido div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+.confirmacion-contenido .p-descripcion{
+    width: 200px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-right: 70px;
+    
+}
+
+.confirmacion-contenido .p-datos{
+    font-size: 1.3rem;
+    font-weight: 300;
+    width: 200px;
+    text-align: center;
+}
+
+.confirmacion-confirmar button{
+    font-weight: 300;
+    font-size: 1.3rem;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.confirmacion-confirmar .button-cancelar{
+    background-color: #420033;
+}
+
+.confirmacion-confirmar .button-confirmar{
+    background-color: #262C3B;
+}

@@ -1,0 +1,163 @@
+/* Estructura principal */
+.estadisticas-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Contenedor de fechas y botones de filtro */
+.estadisticas-fechas {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: #001242; /* Fondo unificado */
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin-bottom: 10px; /* Agregamos un poco de margen para separar las secciones */
+}
+
+.fecha-item {
+    text-align: center;
+    color: white;
+}
+
+.botones-filtro {
+    display: flex;
+    gap: 10px;
+}
+
+/* Botones de filtro ajustados */
+.filter-button {
+    background-color: #005E7C;
+    color: white;
+    padding: 5px 30px; /* Reducido el padding vertical para hacer el botón más delgado */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 250px; /* Mantener el ancho para que el botón siga siendo largo */
+    text-align: center;
+    font-size: 1rem; /* Tamaño de fuente ajustado */
+}
+
+/* Estilo personalizado para el calendario */
+.react-datepicker {
+    background-color: #2978c7; /* Fondo azul oscuro */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.react-datepicker__header {
+    background-color: #0032a7; /* Encabezado azul claro */
+    border-bottom: none;
+}
+
+.react-datepicker__day,
+.react-datepicker__day-name {
+    color: white; /* Color de texto blanco */
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+    background-color: #005E7C; /* Color azul más oscuro para el día seleccionado */
+    color: rgb(18, 10, 105);
+}
+
+.react-datepicker__day:hover {
+    background-color: #0077a7; /* Fondo azul claro al pasar el cursor */
+    color: rgb(52, 14, 148);
+}
+
+/* Contenedor para el calendario */
+.datepicker-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end; /* Mueve el calendario hacia la derecha */
+    width: 90%;
+}
+
+/* Contenedor unificado para los datos de las estadísticas */
+.estadisticas-datos {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Configura dos columnas para la alineación */
+    gap: 10px; /* Reduce el espacio entre los elementos */
+    width: 90%;
+    background-color: #20305A; /* Fondo unificado */
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 10px; /* Ajuste para agregar un poco de separación visual */
+    color: white;
+}
+
+.estadisticas-column-izquierda,
+.estadisticas-column-derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.estadistica-item {
+    margin: 20px;
+    text-align: center;
+}
+
+.estadistica-item h2 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+/* Contenedor para los botones de semana */
+.estadisticas-semanas {
+    display: flex;
+    flex-direction: column; /* Mantiene los botones en una disposición vertical */
+    justify-content: center;
+    gap: 20px; /* Aumenta el espacio entre los botones */
+    margin-bottom: 20px;
+    align-items: center; /* Centra los botones dentro del contenedor */
+}
+
+.semana-button {
+    background-color: #005E7C;
+    color: white;
+    padding: 20px 40px; /* Aumenta el tamaño del botón */
+    border: none;
+    border-radius: 15px; /* Bordes más redondeados para un aspecto moderno */
+    cursor: pointer;
+    width: 220px; /* Hacemos los botones más largos */
+    text-align: center;
+    font-size: 1.2rem; /* Aumenta el tamaño de la fuente para mayor legibilidad */
+}
+.day-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.day-button {
+    background-color: #005E7C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.day-display {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0 15px;
+}
+.selected-date {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #005E7C; /* Fondo azulito para mayor integración */
+    padding: 10px;
+    border-radius: 8px;
+}

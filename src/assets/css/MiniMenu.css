@@ -1,0 +1,44 @@
+.mini-menu-container { 
+    position: absolute; /* Mantiene el menú en la esquina */
+    top: 10px; /* Ajuste para posicionar en la parte superior */
+    left: 10px; /* Ajuste para posicionar en la parte izquierda */
+    z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+}
+
+.menu-icon-large {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 48px; /* Tamaño más grande para resaltar el ícono del menú */
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-options {
+    position: absolute;
+    top: 60px; /* Ajustamos para que el menú se despliegue un poco más abajo */
+    left: 0;
+    background-color: rgba(45, 49, 66, 0.6); /* Fondo más transparente para un look más elegante */
+    border: 1px solid rgba(97, 97, 116, 0.5); /* Borde más sutil */
+    border-radius: 10px; /* Bordes más redondeados */
+    width: 250px; /* Aumentamos el ancho del menú */
+    padding: 20px; /* Mayor espaciado interno para que el menú sea más grande */
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(8px); /* Efecto de desenfoque al fondo */
+}
+
+.menu-option {
+    background: none;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Aumentamos el tamaño y el espacio de las opciones del menú */
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px; /* Tamaño de texto más grande para mayor legibilidad */
+}
+
+.menu-option:hover {
+    background-color: rgba(97, 97, 116, 0.4); /* Color al pasar el mouse con mayor transparencia */
+}
